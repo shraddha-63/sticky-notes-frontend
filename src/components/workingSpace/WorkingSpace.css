@@ -1,0 +1,60 @@
+.content{
+    flex:3 3 0%;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.title{
+ 
+
+  font-weight: bold;
+    font-size: 1.1em;
+    margin:0px 0px 10px 0px;
+    display: flex;
+    
+}
+  
+.title input{
+    flex:1 1 100%;
+    border-width:0px !important;
+    padding:0px 2em;
+    text-align: center;
+    font-size: 1.3em;
+}
+.title input[type="text"], .title input[type="password"],.title  textarea, .title select { 
+    outline: none;
+}
+
+.description-input{
+    height:90%;
+    width:100%;
+    color:#999;
+    display: flex;
+} 
+
+.description-input textarea{
+    border-width:0px !important;
+    flex:1 1 100%;
+    font-size: 1.2em;
+    padding:2.5em 3em; 
+    color:#555;
+}
+   
+.description-input input[type="text"], .description-input input[type="password"],.description-input  textarea, .description-input select { 
+    outline: none;
+}
+/* .submit-button{
+    height:5%;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.submit-button input{
+    width:12%;
+    color:white;
+    font-size: 1.1em;   
+    background-color: rgb(238, 14, 51);
+}  */

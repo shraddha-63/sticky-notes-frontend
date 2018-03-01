@@ -1,0 +1,32 @@
+.note-head{
+    min-height: 10%;
+    border:1px solid white;
+    cursor: pointer;
+    padding:1em 2em;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-around
+    
+}
+.note-top{
+    display: flex;
+    justify-content: space-between;
+}
+.note-title{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.note-time{
+  font-size: .8em;
+  color:#aaa;
+
+}
+.note-description{
+  
+  font-size: 0.8em;
+  color:#444;
+}
+.note-head:hover{
+    background-color: white;
+    
+}
